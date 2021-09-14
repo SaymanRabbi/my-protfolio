@@ -1,0 +1,216 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+   
+    background: #000;
+    line-height: 1.7;
+   
+}
+// -----navbar--------
+.navbar-light .navbar-nav .color{
+  font-size: 1.5rem;
+  color: white;
+  padding-left: 1rem;
+  &:hover{
+    color: #ff9301;
+  }
+}
+form{
+  & .input--width{
+    padding: 1rem 15rem  1rem 1rem;
+  }
+}
+.d-flex{
+  & input{
+    &::placeholder{
+      font-size: 1.5rem;
+    }
+    
+  }
+  & button{
+    font-size: 1.5rem;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    border: none;
+    border: 1px solid white;
+    &:hover{
+      background-color: black;
+      color: white;
+      border: 1px solid white;
+    }
+   
+
+  }
+}
+.logo{
+  border-radius: 50%;
+}
+.navbar{
+  padding-left: 2rem;
+  background-color: #0C0C14;
+}
+// -----navbar End--------
+main{
+  width: 100%;
+  height: 90vh;
+}
+// ---hero section-------
+.size{
+  width: 100%;
+  height: 50rem;
+ 
+  
+  & .row{
+    width: 100%;
+    height: 50rem;
+    & .sayman{
+      margin: auto;
+      & h3{
+        font-size: 2rem;
+        color: white;
+      }
+      & h1{
+        font-size: 7rem;
+        color: white;
+        font-weight: 700;
+      }
+      & h2{
+        color: #ff9301;
+        font-size: 2.5rem;
+        font-weight: 500;
+      }
+      & p{
+        font-size: 1.5rem;
+        color: hsla(0,0%,100%,.8);
+      }
+      & button{
+        padding: 1rem 5rem;
+        font-size: 1.5rem;
+        border: none;
+        border-radius: 3px;
+        border: 1px solid black;
+        transition: all 1s;
+        &:hover{
+          color: white;
+          background-color: black;
+          border: 1px solid white;
+          transform: translateY(-2px);
+        }
+      }
+    }
+  }
+}
+// -------hero section end------
+
+// ----biography------
+.tow{
+  background-color: #0E0E17;
+  width: 100%;
+  height: 55rem;
+  & .container{
+    padding-top: 10rem;
+   & .row{
+     & .col-4{
+       & .grab{
+         text-align: center;
+         &--in{
+           & img{
+             border-radius: 50%;
+             border: 4px solid #ff9301;
+             position: relative;
+           }
+         }
+         & .info{
+           position: relative;
+           & .facebook{
+            position: absolute;
+            font-size: 2rem;
+    
+            left: 69px;
+            top: -60px;
+              background-color: white;
+           border-radius: 50%;
+             color: black;
+               border: 1px solid white;
+               padding: 1rem;
+               cursor: pointer;
+          }
+          & .twitter{
+            position: absolute;
+            font-size: 2rem;
+            left: 117px;
+            top: -34px;
+            background-color: white;
+            border-radius: 50%;
+            color: black;
+            border: 1px solid white;
+            padding: 1rem;
+            cursor: pointer;
+               }
+               & .instagram{
+                position: absolute;
+                font-size: 2rem;
+                left: 170px;
+                top: -23px;
+                background-color: white;
+                border-radius: 50%;
+                color: black;
+                border: 1px solid white;
+                padding: 1rem;
+                cursor: pointer;
+               }
+               & .linkedin{
+                position: absolute;
+    font-size: 2rem;
+    left: 223px;
+    top: -34px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    border: 1px solid white;
+    padding: 1rem;
+    cursor: pointer;
+               }
+               & .pinterest{
+                position: absolute;
+    font-size: 2rem;
+    left: 266px;
+    top: -61px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    border: 1px solid white;
+    padding: 1rem;
+    cursor: pointer;
+               }
+              
+         }
+         & p{
+          font-size: 1.8rem;
+          color: hsla(0,0%,100%,.8);
+          margin-top: 4rem;
+        }
+        & h1{
+          font-size: 3rem;
+          font-weight: 500;
+          color: white;
+        }
+       }
+     }
+   }
+  }
+}
+// ----biography end------

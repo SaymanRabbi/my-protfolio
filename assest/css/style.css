@@ -1,0 +1,235 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  background: #000;
+  line-height: 1.7;
+}
+
+.navbar-light .navbar-nav .color {
+  font-size: 1.5rem;
+  color: white;
+  padding-left: 1rem;
+}
+
+.navbar-light .navbar-nav .color:hover {
+  color: #ff9301;
+}
+
+form .input--width {
+  padding: 1rem 15rem  1rem 1rem;
+}
+
+.d-flex input::-webkit-input-placeholder {
+  font-size: 1.5rem;
+}
+
+.d-flex input:-ms-input-placeholder {
+  font-size: 1.5rem;
+}
+
+.d-flex input::-ms-input-placeholder {
+  font-size: 1.5rem;
+}
+
+.d-flex input::placeholder {
+  font-size: 1.5rem;
+}
+
+.d-flex button {
+  font-size: 1.5rem;
+  border-radius: 3px;
+  background-color: white;
+  color: black;
+  border: none;
+  border: 1px solid white;
+}
+
+.d-flex button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+.navbar {
+  padding-left: 2rem;
+  background-color: #0C0C14;
+}
+
+main {
+  width: 100%;
+  height: 90vh;
+}
+
+.size {
+  width: 100%;
+  height: 50rem;
+}
+
+.size .row {
+  width: 100%;
+  height: 50rem;
+}
+
+.size .row .sayman {
+  margin: auto;
+}
+
+.size .row .sayman h3 {
+  font-size: 2rem;
+  color: white;
+}
+
+.size .row .sayman h1 {
+  font-size: 7rem;
+  color: white;
+  font-weight: 700;
+}
+
+.size .row .sayman h2 {
+  color: #ff9301;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.size .row .sayman p {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.size .row .sayman button {
+  padding: 1rem 5rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 3px;
+  border: 1px solid black;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.size .row .sayman button:hover {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.tow {
+  background-color: #0E0E17;
+  width: 100%;
+  height: 55rem;
+}
+
+.tow .container {
+  padding-top: 10rem;
+}
+
+.tow .container .row .col-4 .grab {
+  text-align: center;
+}
+
+.tow .container .row .col-4 .grab--in img {
+  border-radius: 50%;
+  border: 4px solid #ff9301;
+  position: relative;
+}
+
+.tow .container .row .col-4 .grab .info {
+  position: relative;
+}
+
+.tow .container .row .col-4 .grab .info .facebook {
+  position: absolute;
+  font-size: 2rem;
+  left: 69px;
+  top: -60px;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  border: 1px solid white;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.tow .container .row .col-4 .grab .info .twitter {
+  position: absolute;
+  font-size: 2rem;
+  left: 117px;
+  top: -34px;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  border: 1px solid white;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.tow .container .row .col-4 .grab .info .instagram {
+  position: absolute;
+  font-size: 2rem;
+  left: 170px;
+  top: -23px;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  border: 1px solid white;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.tow .container .row .col-4 .grab .info .linkedin {
+  position: absolute;
+  font-size: 2rem;
+  left: 223px;
+  top: -34px;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  border: 1px solid white;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.tow .container .row .col-4 .grab .info .pinterest {
+  position: absolute;
+  font-size: 2rem;
+  left: 266px;
+  top: -61px;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  border: 1px solid white;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.tow .container .row .col-4 .grab p {
+  font-size: 1.8rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 4rem;
+}
+
+.tow .container .row .col-4 .grab h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
