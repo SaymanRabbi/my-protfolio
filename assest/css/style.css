@@ -108,6 +108,7 @@ main {
   color: #ff9301;
   font-size: 2.5rem;
   font-weight: 500;
+  margin-top: 1rem;
 }
 
 .size .row .sayman p {
@@ -123,6 +124,7 @@ main {
   border: 1px solid black;
   -webkit-transition: all 1s;
   transition: all 1s;
+  margin-top: 2rem;
 }
 
 .size .row .sayman button:hover {
@@ -170,6 +172,11 @@ main {
   cursor: pointer;
 }
 
+.tow .container .row .col-4 .grab .info .facebook:hover {
+  background-color: #ff9301;
+  color: white;
+}
+
 .tow .container .row .col-4 .grab .info .twitter {
   position: absolute;
   font-size: 2rem;
@@ -181,6 +188,11 @@ main {
   border: 1px solid white;
   padding: 1rem;
   cursor: pointer;
+}
+
+.tow .container .row .col-4 .grab .info .twitter:hover {
+  background-color: #ff9301;
+  color: white;
 }
 
 .tow .container .row .col-4 .grab .info .instagram {
@@ -196,6 +208,11 @@ main {
   cursor: pointer;
 }
 
+.tow .container .row .col-4 .grab .info .instagram:hover {
+  background-color: #ff9301;
+  color: white;
+}
+
 .tow .container .row .col-4 .grab .info .linkedin {
   position: absolute;
   font-size: 2rem;
@@ -209,6 +226,11 @@ main {
   cursor: pointer;
 }
 
+.tow .container .row .col-4 .grab .info .linkedin:hover {
+  background-color: #ff9301;
+  color: white;
+}
+
 .tow .container .row .col-4 .grab .info .pinterest {
   position: absolute;
   font-size: 2rem;
@@ -220,6 +242,11 @@ main {
   border: 1px solid white;
   padding: 1rem;
   cursor: pointer;
+}
+
+.tow .container .row .col-4 .grab .info .pinterest:hover {
+  background-color: #ff9301;
+  color: white;
 }
 
 .tow .container .row .col-4 .grab p {
